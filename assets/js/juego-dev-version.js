@@ -93,7 +93,7 @@ const miModulo = (()=>{
     const crearCarta = ( carta,turno ) => {
 
         const nuevaCarta = document.createElement( 'img' );
-        nuevaCarta.src = `cartas/${ carta }.png`;
+        nuevaCarta.src = `assets/cartas/${ carta }.png`;
         nuevaCarta.classList.add( 'carta' );
         divCartasJugador[turno].append( nuevaCarta );
 
