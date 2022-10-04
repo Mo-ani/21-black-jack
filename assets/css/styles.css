@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.titulo{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+
+.botones {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    padding: 1.2rem;
+}
+
+.mesa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mesa .tablero{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.carta {
+    width: 130px;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 30px;
+    margin: 10px 0 10px -60px;
+}
